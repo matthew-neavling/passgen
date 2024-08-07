@@ -18,6 +18,12 @@ impl App {
                 }
             }
         }
+
+        if length > 5 || length < 2 {
+            println!("Password length must be 2 <= length <=5 ");
+            length = 3;
+        }
+
         length
     }
 
