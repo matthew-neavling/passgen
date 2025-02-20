@@ -48,24 +48,4 @@ fn main() {
             }
         }
     }
-
-    // loop {
-    //             // Get input
-    //             let input = Self::get_input();
-
-    //             match input.chars().nth(0) {
-    //                 Some(input) => match input {
-    //                     'r' => println!("{}", Wordlist::get_password(password_length)),
-    //                     _ => {
-    //                         Self::clear_screen();
-    //                         break;
-    //                     }
-    //                 },
-    //                 _ => {
-    //                     Self::clear_screen();
-    //                     break;
-    //                 }
-    //             }
-    //         }
-    //     }
 }
