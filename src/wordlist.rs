@@ -38,7 +38,7 @@ impl Wordlist {
         }
     }
 
-    pub fn get_password(n:usize)->String{
+    pub fn get_password(n:u8)->String{
         let password:String = (1..=n)
             .map(|_| Self::proper_case(Self::get_word()))
             .collect::<Vec<String>>()
